@@ -1,0 +1,68 @@
+/* Apply background and text colors to entire app */
+html,
+body,
+[data-testid="stAppViewContainer"] {
+  background-color: #f9f9f9 !important;
+  color: #000000 !important;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-right: 1px solid #ddd !important;
+}
+
+/* Sidebar text and inputs */
+[data-testid="stSidebar"] * {
+  color: #000000 !important;
+}
+
+/* Headers and text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label {
+  color: #000000 !important;
+}
+
+/* Buttons */
+button,
+[role="button"] {
+  background-color: #4caf50 !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 6px !important;
+}
+
+button:hover,
+[role="button"]:hover {
+  background-color: #45a049 !important;
+}
+
+/* Inputs (text boxes, dropdowns, etc.) */
+input,
+textarea,
+select {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+}
+
+/* Radio buttons and checkboxes */
+[data-baseweb="radio"] label,
+[data-baseweb="checkbox"] label {
+  color: #000000 !important;
+}
+/* Top bar (Streamlit's main header) */
+header[data-testid="stHeader"] {
+  background-color: inherit !important; /* Match page background */
+  color: inherit !important;
+  border-bottom: none !important;
+}

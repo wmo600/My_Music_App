@@ -1,0 +1,61 @@
+/* App background and text */
+html,
+body,
+[data-testid="stAppViewContainer"] {
+  background-color: #faf5ff !important;
+  color: #2a003f !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+  background-color: #f3e8ff !important;
+  color: #2a003f !important;
+  border-right: 1px solid #d1b3ff !important;
+}
+
+[data-testid="stSidebar"] * {
+  color: #2a003f !important;
+}
+
+/* Headers and text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label {
+  color: #2a003f !important;
+}
+
+/* Buttons */
+button,
+[role="button"] {
+  background-color: #8e44ad !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 6px !important;
+}
+
+button:hover,
+[role="button"]:hover {
+  background-color: #732d91 !important;
+}
+
+/* Inputs */
+input,
+textarea,
+select {
+  background-color: #ffffff !important;
+  color: #2a003f !important;
+  border: 1px solid #d1b3ff !important;
+  border-radius: 4px !important;
+}
+/* Top bar (Streamlit's main header) */
+header[data-testid="stHeader"] {
+  background-color: inherit !important; /* Match page background */
+  color: inherit !important;
+  border-bottom: none !important;
+}
