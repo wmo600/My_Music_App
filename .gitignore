@@ -1,0 +1,108 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.*
+
+# Streamlit secrets (if you ever use them)
+.streamlit/secrets.toml
+
+# VSCode settings (optional)
+.vscode/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Pylint
+.pylint.d/
+
+# Pyre type checker
+.pyre/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Ignore ZIP and other archives
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Ignore data files
+*.sqlite3
+*.db
+
+# Ignore notebooks outputs (if you use notebooks)
+*.nbconvert.ipynb
+
+# Ignore user-specific files
+*.sublime-workspace
+
+# Other IDEs
+.idea/
+
+# Ignore Python environments
+pip-log.txt
+pip-delete-this-directory.txt
