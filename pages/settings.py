@@ -1,3 +1,6 @@
+# Name: Win Moe Oo
+# Admin Number: 2334369
+# Class: DIT/FT/3A/51
 import streamlit as st
 from components.sidebar import render_sidebar
 from helpers.theme_helper import init_theme_selector
